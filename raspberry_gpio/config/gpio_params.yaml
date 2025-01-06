@@ -1,0 +1,6 @@
+ras_gpio_node:
+  ros__parameters:
+    pin: 17   #GPIO Pin Number
+    mode: 1   #0->OUTPUT , 1->INPUT, 2->PWM, 3->GPIO_CLOCK
+    pull: 0   #0->PullDown, 1->PullUp, else->Off
+    pub_rate: 500

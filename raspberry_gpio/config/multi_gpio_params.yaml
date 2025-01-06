@@ -1,0 +1,6 @@
+multi_gpio_control_node:
+  ros__parameters:
+    pins:   [26 , 2  ,  13]  # GPIO Pin Number (BCM)
+    modes:  [1  , 0   , 1 ]  # 0: OUTPUT, 1: INPUT, 2: PWM, 3: CLOCK
+    pulls:  [0  , 2   , 0 ]  # 0: DOWN, 1: UP, 2: OFF
+    pub_rate: 500
